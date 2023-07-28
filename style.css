@@ -1,7 +1,7 @@
 :root {
-    --cor-de-fundo:#D3E2EF;
-    --cor-cabecalho:#8E9DAB;
-    --fundo-menu:#A2AD91;
+    --cor-de-fundo:#FFFFFF;
+    --cor-cabecalho:#FA8072;
+    --fundo-menu:#FFE4E1;
 }
 
 body {
@@ -22,9 +22,28 @@ body {
 .cabecalho-menu {
     display:block;
     padding: 10px;
-    font-size: 24px;
+    font-size: 30px;
     text-decoration:dashed;
     color:black;
     text-align: center;
     border-top: 1px solid;
 }
+.cabecalho-menu-item {
+    display:block;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration:none;
+    color:black;
+    text-align: center;
+    border-top: 1px solid;
+}
+#burguer {
+    background-color:#000000;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    }
+    #menu {
+    display: none;
+    }
